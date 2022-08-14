@@ -25,6 +25,7 @@ export const Users = () => {
       <SContainer>
         <h2>User一覧</h2>
         <SearchInput />
+        {/* UserCardコンポーネントが動かない */}
         {users.map((user) => {
           <UserCard key={user.id} user={user} />
         })}
